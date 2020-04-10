@@ -1,0 +1,6 @@
+[submodule "kicad-library"]
+	path = kicad-library
+	url = https://github.com/ruuvi/kicad-library.git
+[submodule "ojousima.footprints.kicad"]
+	path = ojousima.footprints.kicad
+	url = https://github.com/ojousima/ojousima.footprints.kicad.git
