@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***";"EYESILK2MM";1;"EYESILK2MM";;;
+2;"J3,J2";"RUUVI_CONNECTOR_8PIN_HEADER";2;"Ruuvi Connector Pin Header";;;
+3;"H6,H5,H2,H1";"MountingHole_3.2mm_M3_Pad_Via";4;"MountingHole";;;
+4;"H4,H3";"BreakoutHoles";2;"27 x 0.4mm NPTH";;;
+5;"C1";"CAPC160X80X35L25N";1;"100n";;;
+6;"R1,R2";"CAPC160X80X35L25N";2;"10k";;;
+7;"U1";"SOIC-14W_7.5x9mm_P1.27mm";1;"NPA-700";;;
+8;"J4";"RUUVI_CONNECTOR_FFC";1;"Ruuvi Connector Horizontal";;;
+9;"JP1,JP2,JP3";"SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels";3;"SolderJumper_3_Open";;;
