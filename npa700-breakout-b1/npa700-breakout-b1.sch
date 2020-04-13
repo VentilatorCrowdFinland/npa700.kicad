@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ruuvi NPA-700 Breakout"
-Date "2020-04-10"
-Rev "A1"
-Comp "Ruuvi Innovations Ltd."
-Comment1 "Otso Jousimaa / otso@ruuvi.com"
-Comment2 "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+Title "NPA-700 Breakout"
+Date "2020-04-13"
+Rev "B1"
+Comp ""
+Comment1 "Otso Jousimaa / otso@ojousima.net"
+Comment2 "License TBD"
 Comment3 "Based on Ruuvi Connector Breakout https://github.com/ruuvi/connector"
 Comment4 ""
 $EndDescr
@@ -35,41 +35,8 @@ F 3 "~" H 4750 3800 50  0001 C CNN
 	1    4750 3800
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5E480197
-P 8800 2475
-F 0 "H1" H 8750 2625 50  0000 L CNN
-F 1 "MountingHole" H 8550 2325 50  0000 L CNN
-F 2 "ruuvitag:MountingHole_3.2mm_M3_Pad_Via" H 8800 2475 50  0001 C CNN
-F 3 "~" H 8800 2475 50  0001 C CNN
-	1    8800 2475
-	1    0    0    -1  
-$EndComp
-Text Notes 4450 1800 0    118  Italic 0
-Ruuvi Connector Breakout Board
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5E48272B
-P 9400 2475
-F 0 "H2" H 9350 2625 50  0000 L CNN
-F 1 "MountingHole" H 9150 2325 50  0000 L CNN
-F 2 "ruuvitag:MountingHole_3.2mm_M3_Pad_Via" H 9400 2475 50  0001 C CNN
-F 3 "~" H 9400 2475 50  0001 C CNN
-	1    9400 2475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5E47880E
-P 9100 3075
-F 0 "H3" H 9050 3225 50  0000 L CNN
-F 1 "27 x 0.4mm NPTH" H 8750 2925 50  0000 L CNN
-F 2 "connector:BreakoutHoles" H 9100 3075 50  0001 C CNN
-F 3 "~" H 9100 3075 50  0001 C CNN
-	1    9100 3075
-	1    0    0    -1  
-$EndComp
+Text Notes 2900 1800 0    118  Italic 0
+NPA-7xx Differential Pressure Sensor Breakout Board
 $Comp
 L Connector_Generic:Conn_01x08 J4
 U 1 1 5E47EC4C
@@ -81,8 +48,6 @@ F 3 "~" H 6450 4500 50  0001 C CNN
 	1    6450 4500
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	6750 4100 6850 4100
 Wire Wire Line
 	6650 4000 6850 4000
 Wire Wire Line
@@ -101,17 +66,6 @@ Text Notes 4300 3900 0    59   Italic 0
 Left
 Text Notes 7300 3850 0    59   Italic 0
 Right
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5E4B7E12
-P 8800 5575
-F 0 "H5" H 8750 5725 50  0000 L CNN
-F 1 "MountingHole" H 8550 5425 50  0000 L CNN
-F 2 "ruuvitag:MountingHole_3.2mm_M3_Pad_Via" H 8800 5575 50  0001 C CNN
-F 3 "~" H 8800 5575 50  0001 C CNN
-	1    8800 5575
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5E4B7E1C
@@ -137,8 +91,6 @@ $EndComp
 Wire Wire Line
 	6850 4300 6850 4200
 Wire Wire Line
-	6750 4100 6750 4300
-Wire Wire Line
 	6650 4000 6650 4300
 Wire Wire Line
 	6550 3900 6550 4300
@@ -153,9 +105,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 4200 5250 4200
 Connection ~ 6850 4200
-Wire Wire Line
-	4950 4100 6750 4100
-Connection ~ 6750 4100
 Wire Wire Line
 	6650 4000 4950 4000
 Connection ~ 6650 4000
@@ -197,8 +146,6 @@ Text Label 5000 3900 0    50   ~ 0
 GPIO4
 Text Label 5000 4000 0    50   ~ 0
 GPIO5
-Text Label 5000 4100 0    50   ~ 0
-GPIO6
 Wire Wire Line
 	5900 3150 6100 3150
 Wire Wire Line
@@ -373,4 +320,10 @@ Text Label 4500 6000 2    50   ~ 0
 GPIO5
 Text Notes 4800 5700 0    50   ~ 0
 GPIO3 | GPIO4 | GPIO5 | Sensor\n———————————————————————————\nHI     | HI    | LO/NC | \nLO/NC | HI    | LO/NC|NPA-7xx-030D \nHI     |LO/NC | LO/NC|NPA-7xx-015D\nLO/NC |LO/NC | LO/NC|NPA-7xx-005D\nHI     | HI    | LO/NC |NPA-7xx-001D\nLO/NC | HI    | LO/NC |NPA-7xx-10WD\nHI     |LO/NC | LO/NC |NPA-7xx-05WD\nLO/NC |LO/NC | LO/NC|NPA-7xx-02WD
+Text Notes 6700 4100 0    50   ~ 0
+KEY
+Text Notes 5000 4100 0    50   ~ 0
+KEY
+NoConn ~ 6850 4100
+NoConn ~ 4950 4100
 $EndSCHEMATC

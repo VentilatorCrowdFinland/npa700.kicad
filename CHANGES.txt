@@ -1,0 +1,7 @@
+# Changes
+
+## B1
+ - Fork the project for VCF.
+ - Key the pinheader pin 7.
+ - Remove 3 mounting holes, one snap-off edge.
+ - Move remaining mounting hole in corner.

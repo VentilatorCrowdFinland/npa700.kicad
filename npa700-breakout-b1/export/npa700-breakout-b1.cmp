@@ -1,0 +1,99 @@
+Cmp-Mod V01 Created by PcbNew   date = Monday, 13 April 2020 at 12:37:53
+
+BeginCmp
+TimeStamp = 5E94336A
+Path = /5E44A1A8
+Reference = J3;
+ValeurCmp = Ruuvi Connector Pin Header;
+IdModule  = connector:RUUVI_CONNECTOR_8PIN_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E94339A
+Path = /5E43D485
+Reference = J2;
+ValeurCmp = Ruuvi Connector Pin Header;
+IdModule  = connector:RUUVI_CONNECTOR_8PIN_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E943CAE
+Path = /5E4B7E1C
+Reference = H6;
+ValeurCmp = MountingHole;
+IdModule  = ruuvitag:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E94331E
+Path = /5E4B8666
+Reference = H4;
+ValeurCmp = 27 x 0.4mm NPTH;
+IdModule  = connector:BreakoutHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E943436
+Path = /5E939FCE
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = passives:CAPC160X80X35L25N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E9433D9
+Path = /5E94146E
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = passives:CAPC160X80X35L25N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E9432C2
+Path = /5E9421D0
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = passives:CAPC160X80X35L25N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E943234
+Path = /5E91DD4B
+Reference = U1;
+ValeurCmp = NPA-700;
+IdModule  = Package_SO:SOIC-14W_7.5x9mm_P1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E9431D6
+Path = /5E47EC4C
+Reference = J4;
+ValeurCmp = Ruuvi Connector Horizontal;
+IdModule  = connector:RUUVI_CONNECTOR_FFC;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E943195
+Path = /5E94F147
+Reference = JP1;
+ValeurCmp = SolderJumper_3_Open;
+IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E94315F
+Path = /5E952187
+Reference = JP2;
+ValeurCmp = SolderJumper_3_Open;
+IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E943129
+Path = /5E952B9E
+Reference = JP3;
+ValeurCmp = SolderJumper_3_Open;
+IdModule  = Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels;
+EndCmp
+
+EndListe

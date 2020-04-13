@@ -1,0 +1,10 @@
+### Module positions - created on Monday, 13 April 2020 at 12:46:17 ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                        PosX       PosY       Rot  Side
+C1        100n      CAPC160X80X35L25N            3.0480   -25.4100    0.0000  top
+R1        10k       CAPC160X80X35L25N            2.0320   -10.6780  270.0000  top
+R2        10k       CAPC160X80X35L25N            3.5560   -10.6780  270.0000  top
+U1        NPA-700   SOIC-14W_7.5x9mm_P1.27mm     0.0000   -18.2980   90.0000  top
+## End
