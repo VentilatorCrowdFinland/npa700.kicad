@@ -13,16 +13,16 @@ This board supports NPA-7xx series differential pressure sensors.
 7) PIN6 - NC, keying for assembly
 8) GND
 
-GPIO3 | GPIO4 | GPIO5 | Sensor
-———————————————————————————
-HI    | HI    | LO/NC | Reserved
-LO/NC | HI    | LO/NC | NPA-7xx-030D 
-HI    |LO/NC  | LO/NC | NPA-7xx-015D
-LO/NC |LO/NC  | LO/NC | NPA-7xx-005D
-HI    | HI    | LO/NC | NPA-7xx-001D
-LO/NC | HI    | LO/NC | NPA-7xx-10WD
-HI    |LO/NC  | LO/NC | NPA-7xx-05WD
-LO/NC |LO/NC  | LO/NC | NPA-7xx-02WD
+| GPIO3 | GPIO4 | GPIO5 | Sensor |
+| ----- | ----- | ----- | ------ |
+| HI    | HI    | LO/NC | Reserved     |
+| LO/NC | HI    | LO/NC | NPA-7xx-030D |
+| HI    | LO/NC | LO/NC | NPA-7xx-015D |
+| LO/NC | LO/NC | LO/NC | NPA-7xx-005D |
+| HI    | HI    | LO/NC | NPA-7xx-001D |
+| LO/NC | HI    | LO/NC | NPA-7xx-10WD |
+| HI    | LO/NC | LO/NC | NPA-7xx-05WD |
+| LO/NC | LO/NC | LO/NC | NPA-7xx-02WD |
 
 ## Dimensions of expansion board
 
